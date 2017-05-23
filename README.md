@@ -5,6 +5,10 @@
 
 Browse the docs on [reactnavigation.org](https://reactnavigation.org/) or try it out on [our expo demo](https://exp.host/@react-navigation/NavigationPlayground).
 
+## 更新日志
+
+[Header.js](https://github.com/cikai/react-navigation/blob/master/src/views/Header.js#L327) 第327行，title的alignItems不再根据系统适应，按照项目样式需求，统一调整为 **居中**，对应commit为[62c493b](https://github.com/cikai/react-navigation/commit/62c493b0422b3bceca29cd1af20b15e9d7852306)
+
 ## Motivation
 
 React Navigation is born from the React Native community's need for an
