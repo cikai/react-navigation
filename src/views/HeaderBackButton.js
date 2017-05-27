@@ -91,15 +91,6 @@ class HeaderBackButton extends React.PureComponent<DefaultProps, Props, State> {
             style={[styles.icon, title && styles.iconWithTitle, { tintColor }]}
             source={asset}
           />
-          {Platform.OS === 'ios' &&
-            title &&
-            <Text
-              onLayout={this._onTextLayout}
-              style={[styles.title, { color: tintColor }, titleStyle]}
-              numberOfLines={1}
-            >
-              {backButtonTitle}
-            </Text>}
         </View>
       </TouchableItem>
     );
